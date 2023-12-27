@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25322119-6f0f-4684-b96c-83f7f6b4658f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/VL53L5CX-LED-Display-Output.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vl53l5demo.py" afterDir="false" />
+    <list default="true" id="25322119-6f0f-4684-b96c-83f7f6b4658f" name="Changes" comment="Initial Commit - Distance Demo is done in alpha progress level.&#10;&#10;TODO - &#10;Extra, basic documentation.&#10;Reflectance grid function.&#10;Motion grid function.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/oisu-kast/VL53L5CX-LED-Display-Output",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.micropython.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/oisu-kast/VL53L5CX-LED-Display-Output&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.micropython.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -107,8 +101,17 @@
       <updated>1703604058404</updated>
       <workItem from="1703604060612" duration="748000" />
       <workItem from="1703614440935" duration="1331000" />
-      <workItem from="1703616518059" duration="2877000" />
+      <workItem from="1703616518059" duration="3260000" />
+      <workItem from="1703664196657" duration="632000" />
     </task>
+    <task id="LOCAL−00001" summary="Initial Commit - Distance Demo is done in alpha progress level.&#10;&#10;TODO - &#10;Extra, basic documentation.&#10;Reflectance grid function.&#10;Motion grid function.">
+      <option name="closed" value="true" />
+      <created>1703619777808</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1703619777808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +133,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit - Distance Demo is done in alpha progress level.&#10;&#10;TODO - &#10;Extra, basic documentation.&#10;Reflectance grid function.&#10;Motion grid function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - Distance Demo is done in alpha progress level.&#10;&#10;TODO - &#10;Extra, basic documentation.&#10;Reflectance grid function.&#10;Motion grid function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

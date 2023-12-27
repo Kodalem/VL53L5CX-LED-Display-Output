@@ -34,8 +34,12 @@ print("Done in {}ms...".format(t_end - t_sta))
 IS_8X8 = True
 if IS_8X8:
     sensor.set_resolution(breakout_vl53l5cx.RESOLUTION_8X8)
+    # 1-15 Hz for 8x8
+    sensor.set_ranging_frequency_hz(15)
 else:
     sensor.set_resolution(breakout_vl53l5cx.RESOLUTION_4X4)
+    # 1-60 Hz for 4x4
+    sensor.set_ranging_frequency_hz(60)
 
 # Start ranging
 sensor.start_ranging()
@@ -123,6 +127,7 @@ while True:
             data.reflectance[0],
             data.distance_avg,
             data.reflectance_avg))
+
 
 
 
